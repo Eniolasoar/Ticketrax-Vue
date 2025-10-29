@@ -9,10 +9,9 @@ It includes a dashboard overview, ticket management, authentication, and respons
 ## 🚀 Frameworks and Libraries Used
 
 ### **React Version**
-- **React 18+**
-- **React Router DOM** – routing and navigation
-- **React Icons** – optional icons
-- **Native CSS / CSS Modules**
+- **Vue 7+**
+- **Vue Router** – routing and navigation
+- **Native CSS**
 - **LocalStorage** – session and data persistence
 
 ---
@@ -24,7 +23,7 @@ It includes a dashboard overview, ticket management, authentication, and respons
 ```bash
 # Clone repo
 git clone https://github.com/Eniolasoar/Ticketrax-Vue.git
-cd ticketapp/vue-version
+cd vue-version
 
 # Install dependencies
 npm install
@@ -35,14 +34,14 @@ npm run dev
 
 Access: http://localhost:5173
 
-🔄 Switching Between Versions
+## 🔄 Switching Between Versions
 This project was built in three different versions: react, vue and twig
 To switch to React, head over to this link : https://github.com/Eniolasoar/Ticketrax-React
 To switch to Twig, head over to this link : https://github.com/Eniolasoar/Ticketrax-Twig
 
 And follow the appropriate instructions
 
-🧩 UI Components Overview
+## 🧩 UI Components Overview
 1️⃣ Navbar
 
 Responsive top navigation bar
@@ -87,7 +86,7 @@ sidebarOpen	Boolean controlling sidebar drawer
 tickets	Stored in localStorage for demo persistence
 session	Tracks login state (ticketapp_session)
 
-♿ Accessibility Notes
+## ♿ Accessibility Notes
 
 All interactive elements include aria-label and aria-expanded
 
@@ -99,12 +98,12 @@ Decorative graphics are marked aria-hidden="true"
 
 Landmarks (<header>, <main>, <footer>, <nav>) are clearly defined
 
-⚠️ Known Issues
+## ⚠️ Known Issues
 Issue	Description	Workaround
 LocalStorage only persistence	Data resets on new device/browser	Backend API integration planned
 Limited offline mode	Offline caching not yet implemented	PWA version planned
 Minor Safari animation inconsistency	Animations may differ	Use fallback transitions
 
-👥 Example Test User Credentials
-Role	Email	Password
-Admin	admin@ticketrax.com	Admin@123
+## 👥 Example Test User Credentials
+Email	                    Password	
+admin@ticketrax.com	        Admin@123
