@@ -62,9 +62,9 @@
 
 <script setup>
 import { reactive, ref } from "vue";
-import Toast from "../Toast.vue";
-import Footer from "../shared/Footer.vue";
-import { signupUser } from "../../utils/auth";
+import Toast from "../components/Toast.vue";
+import Footer from "../components/shared/Footer.vue";
+import { signupUser } from "../utils/auth";
 
 const form = reactive({ username: "", email: "", password: "", confirm: "" });
 const error = reactive({});

@@ -3,8 +3,8 @@ import { isAuthenticated } from "../utils/auth";
 
 // Import pages
 import LandingPage from "../pages/LandingPage.vue";
-import Signup from "../components/auth/Signup.vue";
-import Login from "../components/auth/Login.vue";
+import Signup from "../pages/Signup.vue";
+import Login from "../pages/Login.vue";
 import Dashboard from "../pages/Dashboard.vue";
 import TicketManagement from "../pages/TicketManagement.vue";
 
